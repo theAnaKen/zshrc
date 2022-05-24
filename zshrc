@@ -172,7 +172,8 @@ alias la='ls -A'
 alias gitadd='git add .'
 alias gitcommit='git commit -am'
 alias gitpush='git push origin'
-
+alias gitstatus='git status'
+alias clear='clear && figlet -f 'Chunky' $name  | lolcat && pfetch | lolcat'
 
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
